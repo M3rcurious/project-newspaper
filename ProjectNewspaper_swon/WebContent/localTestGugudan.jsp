@@ -10,7 +10,7 @@
 </head>
 
 <body>
-sdfsdf
+바거ㅐ랴ㅕㅗ냐ㅐㅕㅗㄴㅁ댜려ㅗ녀
 <div>
 <table>
 <% for(int j=0;j<=9;j++) {
