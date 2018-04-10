@@ -6,5 +6,7 @@ public class TestEx01 {
 		
 		String result = test+5;
 		System.out.println(result);
+		
+		System.out.println(test);
 	}
 }
