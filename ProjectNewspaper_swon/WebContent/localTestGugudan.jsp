@@ -12,21 +12,31 @@
 		border-collapse: collapse;
 	}
 	table, td {
-		border: 1px dotted green;
+		border: 2px dotted green;
+		padding: 5px;
+		text-align: center;
+	}
+	#top {
+		background-color: rgb(110,110,110);
+		color: rgb(255,255,255);
 	}
 </style>
 </head>
 <body>
-sdfsdf
-<div>
 <table>
 <% for(int j=0;j<=9;j++) {
 %>
-	<tr>	
+	<tr>
 	<% for(int i=0;i<=9;i++) {
-	%>
-		<td><%=j %> X <%=i %> = <%=j*i %></td>
-	<% 
+		if(j == 0 && i == 0) {
+			%><td></td><%				
+		} else if(j == 0) {
+			%><td id="top"> X<%=i %> </td> <% 
+		} else if(i == 0) {
+			%> <td><%= j %>단</td> <% 
+		} else {
+			%><td><%=j %> X <%=i %> = <%=j*i %></td><%	
+		}	 
  	}
 	%>	
 	</tr>
@@ -34,6 +44,5 @@ sdfsdf
 }
 %>
 </table>
-</div>
 </body>
 </html>
