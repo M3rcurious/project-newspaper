@@ -53,8 +53,8 @@
 	</nav>
 	<!-- 로그인 영역 -->
 	<div class="container">
-		<div class="col-lg-5"></div>
-		<div class="col-lg-5">
+		<div class="col-lg-4"></div>
+		<div class="col-lg-4">
 			<div class="jumbotron" style="padding-top: 20px;">
 				<form method="post" action="loginAction.jsp">
 					<h3 style="text-align: center;">로그인 화면</h3>
@@ -68,7 +68,7 @@
 				</form>
 			</div>
 		</div>
-		<div class="col-lg-5"></div>
+		<div class="col-lg-4"></div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
