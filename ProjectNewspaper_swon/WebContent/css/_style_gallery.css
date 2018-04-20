@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* 갤러리 스타일 -------------------------------------------------------------------------------------------------------- */
+.gallery_lightbox { 
+	position:relative;
+	font-size: 12px;
+}
+.gallery_lightbox .thumbList {}
+.gallery_lightbox .thumbList .item { 
+	float:left; 
+}
+.gallery_lightbox .thumbList .box { 
+	overflow:hidden; 
+	background:#fff;	
+	border:1px solid #e1e1e1;
+}
+.gallery_lightbox .thumbList .box.on { 
+	border-color: #49A2DF;
+}
+.gallery_lightbox .thumbList .thumb { 
+	position:relative;
+	overflow:hidden; 
+	margin:0 auto;
+	padding:0;
+	border-bottom: 1px solid #eee;
+}
+.gallery_lightbox .thumbList .link { 
+	position:relative;
+	overflow:hidden; 
+	margin:0;
+	padding:0; 
+	display:block; 
+}
+.gallery_lightbox .thumbList input[type="checkbox"] { 
+	width:13px; 
+	height:13px; 
+}
+.gallery_lightbox .thumbList .thumbnail { 
+	position:relative;
+	overflow:hidden; 
+	display:block; 
+	margin: 0;
+	padding:0 !important;
+	text-align: center;
+}
+.gallery_lightbox .thumbList .thumbnail img { 
+	vertical-align:top;
+	width: 100%;
+}
+
+.gallery_lightbox .thumbList .cover_info {
+	padding: 10px 10px 15px;
+}
+.gallery_lightbox .thumbList .cover-subject .subject { 
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold; 
+	margin-bottom: 10px;
+	color: #333;
+}
+.gallery_lightbox .thumbList .cover-subject i { 
+	color: #e6127c;
+}
+
+.gallery_lightbox .thumbList .summary { 
+	margin-bottom: 6px;
+	font-size: 13px;
+}
+.gallery_lightbox .thumbList .category { 
+	margin-bottom: 6px;
+	font-size: 13px;
+	color: #3498db;
+}
+.gallery_lightbox .thumbList .cover_num {
+	padding: 5px 10px;
+	background: #f1f1f1;
+	border-top: 1px solid #e1e1e1;
+}
+.gallery_lightbox .thumbList .cover_num span {
+	display: inline-block;
+	margin-right: 5px;;
+	color:#555;
+}
+.gallery_lightbox .thumbList .cover_num a {
+	color: #555;
+}
+
+
+/* viewer */
+.nivo-lightbox-inline .simple_viewer {
+	text-align: center;
+	padding:20px;
+}
+.nivo-lightbox-inline .simple_viewer img {
+	vertical-align: top;
+	margin: 0 0 10px;
+}
+.nivo-lightbox-inline .simple_viewer p {
+	margin:0 0 10px;
+	font-size: 13px;
+	line-height: 130%;
+}
+.nivo-lightbox-inline .simple_viewer strong {
+	font-size:16px;
+}
+.nivo-lightbox-inline .simple_viewer a {
+	font-size: 12px;
+	color: #555;
+}
+
+
+

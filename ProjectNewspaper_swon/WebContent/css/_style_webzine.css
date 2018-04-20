@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/* 웹진 스타일 
+-------------------------------------------------------------------------------------------------------- */
+.xet_webzine {
+	padding:0;
+	color:#555;
+}
+.xet_webzine .no_list {
+	text-align:center;
+}
+.xet_webzine .notice.list {
+	padding: 15px;
+	background: #f1f1f1;
+}
+.xet_webzine .notice .num {
+	margin:0 0 8px;
+	font-size:13px; 
+	font-weight:bold;
+	color:#e74c3c;
+}
+.xet_webzine .list { 
+	margin:0 0 30px;
+	padding:0; 
+	background:#fff;
+}
+.xet_webzine .list.on { 
+	padding-left: 15px;
+	border-left: 3px solid #49A2DF;
+}
+.xet_webzine .list .thumb { 
+	margin: 0 15px 0 0;
+	overflow:hidden; 
+}
+.xet_webzine .list .thumb a { 
+	display:block;
+	text-align:center; 
+}
+.xet_webzine .list .thumb img {
+	vertical-align: top;
+	width: 100%;
+}
+.xet_webzine .list .cover-info { 
+	margin:0;
+	padding:0; 
+	overflow:hidden; 
+	font-size: 13px;
+}
+.xet_webzine .list .cover-subject * { 
+	vertical-align:middle;
+}
+.xet_webzine .list .cover-subject { 
+	margin-bottom: 8px; 
+}
+.xet_webzine .list .cover-subject i { 
+	color: #e6127c;
+}
+.xet_webzine .list .cover-subject .subject { 
+	font-size: 15px;
+	font-weight:bold;
+	text-align:left; 
+	white-space:normal; 
+	text-decoration:none;
+	color:#333; 
+} 
+.xet_webzine .list .cover-summary { 
+	margin-bottom: 10px; 
+	overflow:hidden; 
+	white-space:normal; 
+	text-overflow:ellipsis; 
+	color:#555; 
+}
+
+
+.xet_webzine .list .cover-author a,
+.xet_webzine .list .cover-author span,
+.xet_webzine .list .cover-date a,
+.xet_webzine .list .cover-date span,
+.xet_webzine .list .cover-num a,
+.xet_webzine .list .cover-num span { 
+	display: inline-block;
+	margin-right: 10px; 
+	margin-bottom: 6px;
+	color: #555;
+}
+
+.xet_webzine .list .cover-author .category { 
+	color: #3498db;
+}
+
+.xet_webzine .list .extra { 
+	margin-bottom: 6px; 
+	padding:0; 
+}
+
+
+	/* hover */
+.xet_webzine a:hover { 
+	color:#2980b9 !important; 
+}
+
+
+
+
+/* responsive 
+-------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 767px) {	
+	.xet_webzine .list .thumb { 
+		width: 25%;
+	}
+	.xet_webzine .list .cover-info { 
+		
+	}
+}
+@media (min-width: 768px) {
+
+}

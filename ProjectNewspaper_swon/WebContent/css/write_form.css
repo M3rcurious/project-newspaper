@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+
+/* write form 
+--------------------------------------------------------------------------------------------------------*/
+.boardWrite { 
+	margin:0 0 10px; 
+	padding: 0;
+}
+.boardWrite .caption {
+	margin:0 0 5px;
+}
+.boardWrite em { 
+	color:#2980b9; 
+}
+.boardWrite .boardWriteHeader { 
+	margin:0 0 4px; 
+	padding:0; 
+	vertical-align:top;
+}
+.boardWrite .write_type {
+	margin:0 0 15px;
+}
+.boardWrite .write_type * {
+	vertical-align:middle;
+}
+.boardWrite .write_type .category { 
+	display: inline-block;
+	line-height: 28px;
+	padding: 0 2px;
+	border:1px solid #cccdcf;
+}
+.boardWrite .write_type .category select { 
+	border:0;
+}
+.boardWrite .write_type .input_title {
+	position: relative;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.boardWrite .write_type .input_form {}
+
+	/* 제목 입력 */
+.boardWrite .write_type .inputText {
+	width:  100%;
+}
+.boardWrite .write_type input[type=text],
+.boardWrite .write_type input[type=password] { 
+	display:inline-block;
+	height: 32px;
+	line-height: 32px;
+	padding:0 1%;
+	color:#777;
+	background: #fbfbfb;
+	border: 1px solid #cccdcf;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	border-radius:3px;
+}
+.boardWrite .write_type textarea { 
+	display:inline-block;
+	padding: 1%;
+	color:#777;
+	background: #fbfbfb;
+	border: 1px solid #cccdcf;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	border-radius:3px;
+}
+.boardWrite .write_type input:focus,
+.boardWrite .write_type textarea:focus {
+	background: #fff;
+	color:#555;
+}
+
+.boardWrite .write_type p {
+	margin:10px 0;
+	text-align: left;
+}
+
+	/* 약관동의 */
+.boardWrite .write_type .agree {
+	height: 100px;
+	resize: none;
+	overflow-y: scroll;
+	box-shadow: none;
+	background: #fff;
+	color: #555;
+}
+
+
+	/* 확장 변수 입력 */
+.write_type em { 
+	font-style:normal;
+	font-weight:normal; 
+}
+.extraVarsList button {
+	white-space:nowrap;
+}
+.extraVarsList .current_address,
+.extraVarsList .krZip input,
+.extraVarsList .address,
+.extraVarsList .text,
+.extraVarsList .homepage,
+.extraVarsList .email_address,
+.extraVarsList textarea { 
+	width: 100%; 
+}
+
+.extraVarsList .date { 
+}
+.extraVarsList .tel { 
+}
+.extraVarsList textarea { 
+}
+.extraVarsList .select { 
+	height: 28px;
+	line-height: 28px;
+}
+.extraVarsList ul { 
+	display:inline-block;
+	margin:0; 
+	padding:0; 
+	list-style:none; 
+}
+.extraVarsList ul li {
+	display: block; 
+	margin:0 2px 0 0;
+	padding:0;
+	line-height: 28px;
+}
+.extraVarsList ul li input { 
+	margin-right:5px;
+	vertical-align:middle;
+}
+/* xe 1.7 도로명 주소부분 */
+.extraVarsList .krZip {
+	display:inline-block;
+	vertical-align:top;
+	width: 100%;
+	margin:0;
+}
+.extraVarsList .krZip .box {
+	margin:0 0 10px !important;
+}
+
+/* 다음 주소 */
+.krzip-address-wrap input[type="text"]:disabled {
+	background-color: #eee;
+}
+
+	
+
+
+
+/* responsive 
+-------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 767px) {	
+	.boardWrite .write_type .input_form {
+		width: 100%;
+		padding-left: 0;
+	}
+			
+}
+@media (max-width: 479px) {	
+	
+	
+}
+

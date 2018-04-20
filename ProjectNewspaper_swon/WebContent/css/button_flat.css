@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* ver 0.2 */
+
+/* button 
+---------------------------------------------- */
+.xet_btn {
+	display: inline-block;
+	zoom: 1; *display: inline;  /* zoom and *display = ie7 hack for display:inline-block */
+	outline: none;
+	cursor:pointer;
+	vertical-align:middle;
+	text-align: center;
+	text-decoration:none !important;
+	margin:0;
+	border:0;
+	-webkit-appearance: none;
+}
+.xet_btn.big {
+	line-height:48px !important;
+	font-size: 16px !important;	
+	padding:0 28px !important; 
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+.xet_btn.large {
+	line-height:40px !important;
+	font-size: 14px !important;	
+	padding:0 20px !important; 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.xet_btn.medium {
+	line-height:32px !important;
+	font-size:12px !important;	
+	padding:0 12px !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.xet_btn.small {
+	line-height:18px !important;
+	font-size: 11px !important;
+	padding:0 8px !important; 
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+/* color styles 
+---------------------------------------------- */
+/* alizarin */
+.xet_btn.alizarin {
+	color: #fff !important;
+	background: #e74c3c;	
+}
+.xet_btn.alizarin:active,
+.xet_btn.alizarin:hover {
+	background: #EA6153;	
+}
+
+/* asbestos */
+.xet_btn.asbestos {
+	color: #fff !important;
+	text-shadow: 0 -1px -1px rgba(255, 255, 255, 0.75);	
+	background: #7f8c8d;	
+}
+.xet_btn.asbestos:active,
+.xet_btn.asbestos:hover {
+	background: #8b8b8b;	
+}
+
+/* amethyst */
+.xet_btn.amethyst {
+	color: #fff !important;
+	background: #9b59b6;	
+}
+.xet_btn.amethyst:active,
+.xet_btn.amethyst:hover {
+	background: #A367BC;	
+}
+
+/* belize_hole */
+.xet_btn.belize_hole {
+	color: #fff !important;
+	background: #2980b9;	
+}
+.xet_btn.belize_hole:active,
+.xet_btn.belize_hole:hover {
+	background: #2E8ECE;	
+}
+
+/* carrot */
+.xet_btn.carrot {
+	color: #fff !important;
+	background: #e67e22;	
+}
+.xet_btn.carrot:active,
+.xet_btn.carrot:hover {
+	background: #E8852F;	
+}
+
+/* clouds */
+.xet_btn.clouds {
+	color: #555 !important;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	background: #ecf0f1;	
+}
+.xet_btn.clouds:active,
+.xet_btn.clouds:hover {
+	background: #F8F9FA;	
+}
+
+/* concrete */
+.xet_btn.concrete {
+	color: #fff !important;
+	background: #95a5a6;	
+}
+.xet_btn.concrete:active,
+.xet_btn.concrete:hover {
+	background: #A3B1B2;	
+}
+
+/* dark */
+.xet_btn.dark {
+	color: #fff !important;
+	text-shadow: 0 -1px -1px rgba(255, 255, 255, 0.75);
+	background: #2b2b2b;
+}
+.xet_btn.dark:active,
+.xet_btn.dark:hover {
+	background: #333;
+}
+
+/* light */
+.xet_btn.light {
+	color: #555 !important;
+	text-shadow: 0 -1px -1px rgba(255, 255, 255, 0.75);
+	background: #e1e1e1;
+}
+.xet_btn.light:active,
+.xet_btn.light:hover {
+	background: #d1d1d1;
+}
+
+/* light */
+.xet_btn.white {
+	color: #555 !important;
+	text-shadow: 0 -1px -1px rgba(255, 255, 255, 0.75);
+	background: #fff;
+	border: 1px solid #cccdcf;
+}
+.xet_btn.white:active,
+.xet_btn.white:hover {
+	background: #f1f1f1;
+}
+
+/* gray */
+.xet_btn.gray {
+	color: #fff !important;
+	text-shadow: 0 -1px -1px rgba(255, 255, 255, 0.75);
+	background: #666666;
+}
+.xet_btn.gray:active,
+.xet_btn.gray:hover {
+	background: #333;
+}
+
+/* emerald */
+.xet_btn.emerald {
+	color: #fff !important;
+	background: #2ecc71;
+}
+.xet_btn.emerald:active,
+.xet_btn.emerald:hover {
+	background: #40D47E;	
+}
+
+/* green_sea */
+.xet_btn.green_sea {
+	color: #fff !important;
+	background: #16a085;	
+}
+.xet_btn.green_sea:active,
+.xet_btn.green_sea:hover {
+	background: #19B698;	
+}
+
+/* wet_asphalt */
+.xet_btn.wet_asphalt {
+	color: #fff !important;
+	text-shadow: 0 -1px -1px rgba(255, 255, 255, 0.75);
+	background: #34495e;
+}
+.xet_btn.wet_asphalt:active,
+.xet_btn.wet_asphalt:hover {
+	background: #3D566E;
+}
+
+/* midnight_blue */
+.xet_btn.midnight_blue {
+	color: #fff !important;
+	background: #2c3e50;	
+}
+.xet_btn.midnight_blue:active,
+.xet_btn.midnight_blue:hover {
+	background: #354B60;	
+}
+
+/* nephritis */
+.xet_btn.nephritis {
+	color: #fff !important;
+	background: #27ae60;
+}
+.xet_btn.nephritis:active,
+.xet_btn.nephritis:hover {
+	background: #2CC36B;	
+}
+
+
+/* orange */
+.xet_btn.orange {
+	color: #fff !important;
+	background: #f39c12;	
+}
+.xet_btn.orange:active,
+.xet_btn.orange:hover {
+	background: #F4A62A;	
+}
+
+/* pumpkin */
+.xet_btn.pumpkin {
+	color: #fff !important;
+	background: #d35400;	
+}
+.xet_btn.pumpkin:active,
+.xet_btn.pumpkin:hover {
+	background: #E85D00;	
+}
+
+/* pomegrante */
+.xet_btn.pomegrante {
+	color: #fff !important;
+	background: #c0392b;	
+}
+.xet_btn.pomegrante:active,
+.xet_btn.pomegrante:hover {
+	background: #D14233;	
+}
+
+/* peter_river */
+.xet_btn.peter_river {
+	color: #fff !important;
+	background: #3498db !important;	
+}
+.xet_btn.peter_river:active,
+.xet_btn.peter_river:hover {
+	background: #49A2DF !important;	
+}
+ 
+ /* red */
+.xet_btn.red {
+	color: #fff !important;
+	background: #c0392b;	
+}
+.xet_btn.red:active,
+.xet_btn.red:hover {
+	background: #D14233;	
+}
+
+/* silver */
+.xet_btn.silver {
+	color: #fff !important;
+	text-shadow: 0 -1px -1px rgba(255, 255, 255, 0.75);	
+	background: #bdc3c7;	
+}
+.xet_btn.silver:active,
+.xet_btn.silver:hover {
+	background: #CBD0D3;	
+}
+
+/* sun_flower */
+.xet_btn.sun_flower {
+	color: #fff !important;
+	background: #f1c40f;	
+}
+.xet_btn.sun_flower:active,
+.xet_btn.sun_flower:hover {
+	background: #F2CA25;	
+}
+
+/* turquoise */
+.xet_btn.turquoise {
+	color: #fff !important;
+	background: #1abc9c;	
+}
+.xet_btn.turquoise:active,
+.xet_btn.turquoise:hover {
+	background: #1DD2AF;	
+}
+
+/* wisteria */
+.xet_btn.wisteria {
+	color: #fff !important;
+	background: #8e44ad;	
+}
+.xet_btn.wisteria:active,
+.xet_btn.wisteria:hover {
+	background: #9B50BA;	
+}
+
+/* sns */
+.xet_btn.facebook {
+	font-size: 16px;
+	background: #3B5998 !important;
+	color: #fff !important;
+}
+.xet_btn.twitter {
+	font-size: 16px;
+	background: #1DA1F2 !important;
+	color: #fff !important;
+}
+.xet_btn.google {
+	font-size: 16px;
+	background: #DC4B3F !important;
+	color: #fff !important;
+}
+.xet_btn.kakao {
+	font-size: 16px;
+	background: #FFDC00 !important;
+	color: #3B1E1E !important;
+}

@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+
+/* 목록형 스타일 
+-------------------------------------------------------------------------------------------------------- */
+.boardListForm { 
+	margin:0 0 10px; 
+	padding:0;
+}
+.boardList { 
+	width:100%;
+	border-collapse:collapse; 
+	border-top:3px solid #cccdcf;  
+	border-bottom: 1px solid #cccdcf;
+}
+.boardList thead th { 
+	padding:15px 10px; 
+	white-space:nowrap;
+	text-align:center; 
+	font-size:13px;
+	font-weight:normal; 
+	color:#333; 
+	background:url(../img/lineVr9.gif) no-repeat left center #f9f9f9;
+}
+.boardList thead th:first-child {
+	background-image:none;
+}
+.boardList thead th a {
+	font-weight:normal;
+	color:#333; 
+}
+.boardList thead th a .sort { 
+	vertical-align:middle;
+	margin:0 5px; 
+} 
+.boardList td { 
+	padding:10px 5px;
+	white-space:nowrap; 
+	text-align:center; 
+	vertical-align:middle; 
+	color:#555;
+	background:#fff;
+	border-top: 1px solid #eee;
+}
+.boardList td a {
+	color:#555;
+}
+.boardList td.num { 
+}
+.boardList td.notice span { 
+	display:inline-block;
+	color: #2980b9;
+} 
+.boardList td .thumbnail { 
+	margin-right: 10px;
+} 
+.boardList td.title { 
+	width:100%; 
+	white-space:normal; 
+	text-align:left;
+} 
+.boardList td.title .xi-new,
+.boardList td.title .xi-update { 
+	color: #c00;
+} 
+.boardList td.title a { 
+	display: inline-block;
+} 
+.boardList td .subject { 
+	font-weight:normal; 
+	text-decoration:none; 
+	font-size:13px;
+	color:#555; 
+} 
+.boardList td .category { 
+	display:inline-block;
+	padding:0 5px 0 0; 
+	margin-right:5px; 
+	color:#2980b9; 
+	border-right:1px solid #eee;
+}
+.boardList td .replyNum,
+.boardList td .trackbackNum { 
+	font:normal 8pt Trebuchet MS, tahoma, Arial;
+	color:#2980b9 !important; 
+}
+.boardList td.author { 
+	text-align:left; 
+}
+.boardList td.checkbox input { 
+	float:none; 
+	margin:0; 
+}
+
+	/* hover */
+.boardList th a:hover,
+.boardList td a:hover { 
+	color:#2980b9 !important;
+} 
+
